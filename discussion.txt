@@ -24,7 +24,6 @@ Describe two more situations where a queue would be an appropriate data structur
 Describe two more situations where a stack would be an appropriate data structure.
     Balancing parentheses, Depth First Search
 
-
 Linked Lists:
 
 Given the linked list below, which are the nodes? What is the data for each node? Where is the head? Where is the tail? (Please be as specific as possible — exactly which parts of the diagram correspond to each part? Arrows? Boxes? Text?)
@@ -44,7 +43,6 @@ Why is it faster to append to a linked list if we keep track of the tail as an a
     Because then we don't need to traverse the entire list each time we want to append something
 
 Trees:
-
 
 Given the tree above, in what order would a Breadth First Search (BFS) algorithm visit each node until finding burritos (starting at food)? (Assume nodes are enqueued in left-to-right order.) Just list the order of nodes visited; no need to recreate the state of the algorithm data in your answer.
     Food > Italian > Indian > Mexican > Lasagna > Pizza > Tikka Masala > Saag > Burritos
