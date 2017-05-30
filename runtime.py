@@ -38,7 +38,7 @@ def sum_zero_1(numbers):
 
     Put runtime here:
     -----------------
-    O(n)
+    O(n^2)
 
     """
 
@@ -61,7 +61,7 @@ def sum_zero_2(numbers):
 
     Put runtime here:
     -----------------
-    O(n^4)
+    O(n^2)
 
     """
 
@@ -77,11 +77,11 @@ def sum_zero_2(numbers):
 def sum_zero_3(numbers):
     """Find pairs of integers that sum to zero.
 
-    This version gets rid of duplicates (it won't add (1, -1) if (-1, 1) already there.
+    This version gets rid of duplicates (it won't add (1, -1) if (-1, 1) is already there).
 
     Put runtime here:
     -----------------
-    O(n^6)
+    O(n^3)
 
     """
 
@@ -92,3 +92,22 @@ def sum_zero_3(numbers):
             if x == -y and (x, y) not in result and (y, x) not in result:
                 result.append((x, y))
     return result
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
